@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnIntroducir"
+        android:layout_width="261dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/boton_bordes"
+        android:onClick="onClick"
+        android:text="@string/btnIntroducir"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnListar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/btnListar"
+        android:layout_width="261dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/boton_bordes"
+        android:onClick="onClick"
+        android:text="@string/btnListarCapturados"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnCapturar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/btnCapturar"
+        android:layout_width="261dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/boton_bordes"
+        android:onClick="onClick"
+        android:text="@string/btnCapturar"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextSizeCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

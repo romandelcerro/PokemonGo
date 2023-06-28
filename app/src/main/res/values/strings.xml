@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">pokemonGo</string>
+    <string name="btnCapturar">Capturar</string>
+    <string name="btnListarCapturados">Listar Capturados</string>
+    <string name="btnIntroducir">Introducir Pokemon</string>
+    <string name="btnInsertar">Insertar Pokemon</string>
+    <string name="txtNombre">Nombre</string>
+    <string name="txtTipo">Tipo</string>
+    <string name="txtLoc">Localizacion</string>
+    <string name="txtGps">El gps está deshabilitado</string>
+    <string name="txtPokeCercano">Hay un Pokemon cercano</string>
+    <string name="txtPokeAlLado">Hay un Pokemon al lado</string>
+    <string name="txtNoCap">No se pudo capturar</string>
+    <string name="txtCap">Pokemon capturado</string>
+</resources>
